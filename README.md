@@ -32,6 +32,11 @@ IEのテスト実行
 ./gradlew test --tests "*IESample"  
 ```
 
+Edgeのテスト実行
+```
+./gradlew test --tests "*EdgeSample"  
+```
+
 Safariのテスト実行
 ```
 ./gradlew test --tests "*SafariSample"  
