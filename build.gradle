@@ -12,6 +12,9 @@ apply plugin: 'java'
 apply plugin: 'application'
 apply plugin: 'eclipse'
 
+def defaultEncoding = 'UTF-8'
+tasks.withType(AbstractCompile)*.options*.encoding = defaultEncoding
+
 // In this section you declare where to find the dependencies of your project
 repositories {
     // Use 'jcenter' for resolving your dependencies.
