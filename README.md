@@ -9,6 +9,7 @@ Selenium 3.0.1の各ブラウザでのサンプルです。
 [Chrome Driver 2.25](https://sites.google.com/a/chromium.org/chromedriver/downloads)  
 
 IE Driverは [ここ](http://www.seleniumhq.org/download/) からダウンロードしてください。
+Edge Driverは [ここ](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/) からダウンロードしてください。  
 
 ## 実行方法
 
