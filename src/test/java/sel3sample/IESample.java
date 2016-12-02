@@ -29,7 +29,6 @@ public class IESample {
 
 	@Before
 	public void setUp() throws Exception {
-		System.setProperty("webdriver.ie.driver","C:\\Users\\hirata.k\\tmp\\sel3sample\\IEDriverServer.exe");
 		driver = new InternetExplorerDriver();			
 	}
 

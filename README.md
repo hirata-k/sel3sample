@@ -25,6 +25,11 @@ FireFox(古い FireFox Driver)のテスト実行
 ./gradlew test --tests "*LegacyFireFoxSample"  
 ```
 
+IEのテスト実行
+```
+./gradlew test --tests "*IESample"  
+```
+
 Safariのテスト実行
 ```
 ./gradlew test --tests "*SafariSample"  
