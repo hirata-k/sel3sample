@@ -31,6 +31,8 @@ public class FireFoxGeckoSample {
 
 	@Before
 	public void setUp() throws Exception {
+		//geckodriverのPATHをOSのPATHに含めない場合はここを記述
+		//System.setProperty("webdriver.gecko.driver","geckodriverのPATH");
 		FirefoxProfile firefoxProfile = new FirefoxProfile();
 		// プロファイルをセットする
 		DesiredCapabilities capabilities = DesiredCapabilities.firefox();

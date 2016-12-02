@@ -29,6 +29,8 @@ public class ChromeSample {
 
 	@Before
 	public void setUp() throws Exception {
+		//chromedriverのPATHをOSのPATHに含めない場合はここを記述
+		//System.setProperty("webdriver.chrome.driver","chromedriverのPATH");
 		driver = new ChromeDriver();			
 	}
 

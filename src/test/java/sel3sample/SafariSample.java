@@ -29,6 +29,8 @@ public class SafariSample {
 
 	@Before
 	public void setUp() throws Exception {
+		//safaridriverのPATHをOSのPATHに含めない場合はここを記述
+		//System.setProperty("webdriver.safari.driver","safaridriverのPATH");
 		driver = new SafariDriver();			
 	}
 

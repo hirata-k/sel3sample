@@ -29,6 +29,8 @@ public class IESample {
 
 	@Before
 	public void setUp() throws Exception {
+		//IEDriverServer.exeのPATHをOSのPATHに含めない場合はここを記述
+		//System.setProperty("webdriver.ie.driver","IEDriverServer.exeのPATH");
 		driver = new InternetExplorerDriver();			
 	}
 
