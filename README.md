@@ -1,6 +1,6 @@
 # sel3sample
 
-Selenium 3.0.1の各ブラウザでのサンプルです。
+Selenium 3.1.0の各ブラウザでのサンプルです。
 
 ## 準備
 各OSに合ったSelenium Driverをダウンロードし、PATHを通して下さい。
